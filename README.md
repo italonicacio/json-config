@@ -1,11 +1,8 @@
 # Json Config
 
-Este projeto tem como intuito testar como seria usar um json para configurar um projeto C++, já fiz alguns vezes em outras linguagens mas nunca usei C++ para isso.
+Esse projeto tem intuito de implementar um singleton que vai ler todas as variáveis que você vai utilizar no seu software.
 
-Para Compilar o projeto pode se utilizar o script build.sh. Nele temos três formas de build sendo elas.
+## Dependencias:
+* [Jsoncpp](https://github.com/open-source-parsers/jsoncpp)
 
-- Debug
-
-- Release
-
-- Release com testes
+Foi utilizado jsoncpp para fazer a leitura do arquivo json, ele já é baixado automaticamente pelo cmake então se não tiver instalado e nem tem pretensão de instalar no sistema ele, o CMake apenas ira instalar o jsoncpp na pasta build.
