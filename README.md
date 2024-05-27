@@ -1,10 +1,6 @@
-# Template CPP With CMake
+# Json Config
 
-Aqui temos uma estrutura para se começar qualquer projeto C++.
-
-Está usando Google Tests como biblioteca de testes.
-
-    Obs.: Caso não tenha o Google Tests instalado ele vai baixar e disponibilizar na pasta build.
+Este projeto tem como intuito testar como seria usar um json para configurar um projeto C++, já fiz alguns vezes em outras linguagens mas nunca usei C++ para isso.
 
 Para Compilar o projeto pode se utilizar o script build.sh. Nele temos três formas de build sendo elas.
 

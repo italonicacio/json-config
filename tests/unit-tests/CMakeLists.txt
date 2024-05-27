@@ -1,6 +1,6 @@
-set(FETCHCONTENT_QUIET OFF CACHE BOOL "Desabilita o modo quiet to FetchContent" FORCE)
+# set(FETCHCONTENT_QUIET OFF CACHE BOOL "Desabilita o modo quiet to FetchContent" FORCE)
 
-include(FetchContent)
+# include(FetchContent)
 
 option(INSTALL_DEPS "Install dependencies" OFF)
 
@@ -24,15 +24,15 @@ endif()
 
 
 add_executable(
-    myTest 
+    json_config_tests 
     run-tests.cpp
-    sum-tests.cpp
+    environment-tests.cpp
 )
 
-target_link_libraries(myTest PRIVATE MyLibrary gtest gtest_main)
+target_link_libraries(json_config_tests PRIVATE JsonConfigCore gtest gtest_main)
 
 target_include_directories(
-    myTest 
+    json_config_tests 
     PRIVATE 
         ${CMAKE_SOURCE_DIR}/include 
 )

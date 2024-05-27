@@ -1,0 +1,7 @@
+{
+	"runtime_mode": "dev",
+	"path": "/run/media/Backup/Development/json-config/build.sh",
+	"size": 100,
+	"max_size": 1000,
+	"epsilon": 0.1
+}
